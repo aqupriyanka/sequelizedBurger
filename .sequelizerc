@@ -1,0 +1,7 @@
+var path = require('path');
+
+module.exports = {
+  'config': path.resolve('D:/BootCamp/homeworks/sequelizedBurger/', 'config/config.json'),
+  'migrations-path': path.resolve('D:/BootCamp/homeworks/sequelizedBurger/', 'migrations'),
+  'models-path': path.resolve('D:/BootCamp/homeworks/sequelizedBurger/', 'models')
+}
