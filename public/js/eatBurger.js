@@ -37,5 +37,6 @@ $("#submit").on("click",function(e){
 	}
 
 	// alert($("#burgerForm").attr("action"));
+	console.log("burgerForm submit action :: ",$("#burgerForm").attr("action"));
 	$("#burgerForm").submit();
 })
